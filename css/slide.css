@@ -1,0 +1,90 @@
+.section-title {
+  color: white;
+  font-size: 36px;
+  font-size: 2.25em;
+  font-weight: 700;
+  margin-top: 80px; }
+
+/* line 159, sass/pages/_homepage.scss */
+.section-header {
+  *zoom: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 70px;
+  padding-top: 40px; }
+  /* line 4, sass/libs/_mixins.scss */
+  .section-header:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; }
+  /* line 164, sass/pages/_homepage.scss */
+  .section-header .section-title {
+    color: white;
+    font-size: 36px;
+    font-size: 2.25em;
+    font-weight: 700;
+    margin-top: 0;
+    float: left; }
+
+/* line 172, sass/pages/_homepage.scss */
+.event-carousel {
+  margin-bottom: 70px; }
+
+/* line 173, sass/pages/_homepage.scss */
+.event-nav {
+  float: right; }
+  /* line 176, sass/pages/_homepage.scss */
+  .event-nav a {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    color: white;
+    background-color: #353535;
+    line-height: 32px;
+    text-align: center;
+    -webkit-transition: .3s ease;
+            transition: .3s ease; }
+    /* line 186, sass/pages/_homepage.scss */
+    .event-nav a:hover {
+      background-color: #fd5927; }
+
+/* line 191, sass/pages/_homepage.scss */
+.event {
+  position: relative;
+  padding-left: 100px; }
+  /* line 195, sass/pages/_homepage.scss */
+  .event .entry-date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    background: #fd5927;
+    background: -webkit-linear-gradient(90deg, #fd5927, #fd5927) top left, -webkit-linear-gradient(90deg, #fd5927, #fd5927) top right, -webkit-linear-gradient(135deg, transparent 10px, #fd5927 0) bottom right, -webkit-linear-gradient(90deg, #fd5927, #fd5927) bottom left;
+    background: linear-gradient(0deg, #fd5927, #fd5927) top left, linear-gradient(0deg, #fd5927, #fd5927) top right, linear-gradient(315deg, transparent 10px, #fd5927 0) bottom right, linear-gradient(0deg, #fd5927, #fd5927) bottom left;
+    background-size: 55% 55%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    text-align: center; }
+    /* line 211, sass/pages/_homepage.scss */
+    .event .entry-date .date {
+      font-size: 36px;
+      font-size: 2.25em;
+      font-weight: 900; }
+    /* line 215, sass/pages/_homepage.scss */
+    .event .entry-date .month {
+      font-size: 14px;
+      font-size: 0.875em;
+      text-transform: uppercase; }
+  /* line 220, sass/pages/_homepage.scss */
+  .event .entry-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-size: 1em;
+    font-size: normal;
+    font-weight: 400; }
+    /* line 226, sass/pages/_homepage.scss */
+    .event .entry-title a {
+      color: white;
+      text-decoration: none; }
